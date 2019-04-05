@@ -1,0 +1,35 @@
+----------------------------------- Busqueda por nombre ------------------------------------------------------------
+1._ El servicio recibe dos parametros:
+http://localhost:8080/getListSpotifyMusicByCity/PARAMETRO_1/PARAMETRO_2
+
+El "PARAMETRO_1" es para el nombre de la ciudad y el segundo es en caso de las codenadas(la cual no aplica,
+se explica a detalle abajo), asi que para buscar por ciudad se agregará un NA al "PARAMETRO_2"
+ 
+PARAMETRO_1 = nombre_ciudad
+PARAMETRO_2 = NA
+
+Ejemplo:
+http://localhost:8080/getListSpotifyMusicByCity/cuernavaca/NA
+
+------------------------------------ Busqueda por coordenadas ------------------------------------------------------------
+1._ El servicio recibe dos parametros:
+http://localhost:8080/getListSpotifyMusicByCity/PARAMETRO_1/PARAMETRO_2
+
+El "PARAMETRO_1" es para Latitud de la ciudad y el "PARAMETRO_2" es para la Longitud de la ciudad
+
+PARAMETRO_1 = Latitud
+PARAMETRO_2 = Longitud
+
+Ejemplo:
+
+http://localhost:8080/getListSpotifyMusicByCity/43.7001100/-79.4163000
+
+-------------------------------------- Comentarios Adicionales ------------------------------------------------------------
+1._ El servicio valida cuando harás una busqueda por nombre de ciudad.
+2._ El servicio valida cuando harás una busqueda por coordenadas.
+3._ Existen validaciones para un nombre de ciudad valido.
+4._ Existen validaciones para coordenadas validas.
+
+Cual quier duda quedo a sus ordenes.
+
+
