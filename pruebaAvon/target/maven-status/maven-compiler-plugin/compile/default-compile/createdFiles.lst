@@ -1,0 +1,9 @@
+com\mx\avon\pruebaAvon\service\MessageServiceImpl.class
+com\mx\avon\pruebaAvon\model\MessageAlexisCedillo.class
+com\mx\avon\pruebaAvon\utils\ClientUtils.class
+com\mx\avon\pruebaAvon\service\IMessageService.class
+com\mx\avon\pruebaAvon\utils\ClientProperties.class
+com\mx\avon\pruebaAvon\model\MessageAlexisCedilloDTO.class
+com\mx\avon\pruebaAvon\controller\MessageController.class
+com\mx\avon\pruebaAvon\model\Message.class
+com\mx\avon\pruebaAvon\PruebaAvonApplication.class
